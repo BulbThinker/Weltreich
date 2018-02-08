@@ -2,7 +2,7 @@ package weltreich.core.ia.rna;
 
 class SigNeuron implements Neuron {
 
-    private weights:Array<Float>;
+    private var weights:Array<Float>;
 
     public function new(nInputs:UInt) {
         this.weights = [for(i in 0...nInputs) 1.0];
@@ -31,4 +31,8 @@ class SigNeuron implements Neuron {
         return(this.activation(result));
     }
     
+    public function getNumInputs():UInt {
+        return(this.weights.length);
+    }
+
 }

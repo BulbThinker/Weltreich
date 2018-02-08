@@ -9,43 +9,13 @@
 
 RNA:
 
--A1-
-    -B1-
--A2-    -C1-
-    -B2-    -D1-
--A3-    -C2-    -E1-
-    -B3-    -D2-    -F1-
--A4-    -C3-    -E2-    -O1>
-    -B4-    -D3-    -F2-
--A5-    -C4-    -E3-    -O2>
-    -B5-    -D4-    -F3-
--A6-    -C5-    -E4-
-    -B6-    -D5-
--A7-    -C6-
-    -B7-
--A8-
+InputLayer
+  5 Neurons (9 Inputs)
+HiddenLayer1
+  4 Neurons (5 Inputs)
+HiddenLayer2
+  3 Neurons (4 Inputs)
+OutputLayer
+  2 Neurons (3 Inputs)
 
-
-(9*8)+(8*7)+(7*6)+(6*5)+(5*4)+(4*3)+(3*2)
-
-
-pega 8 pacotes de 9 //Ok
-pega 7 pacotes de 8 
-pega 6 pacotes de 7
-pega 5 pacotes de 6
-pega 4 pacotes de 5
-pega 3 pacotes de 4
-pega 2 pacotes de 3
-
-
-
-00--09
-09--18
-18--27
-27--36
-36--45
-45--54
-54--63
-63--72
-
-72--80
+(5*9)+(4*5)+(3*4)+(2*3)
