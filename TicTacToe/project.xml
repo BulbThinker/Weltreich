@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project>
 	
-	<meta title="TickTackToe" package="com.bulbthinks.weltreichproject.ticktacktoe" version="1.0.0" company="bulbthinks" />
-	<app main="Main" path="Export" file="TickTackToe" />
+	<meta title="TicTacToe" package="com.bulbthinks.weltreichproject.tictactoe" version="1.0.0" company="bulbthinks" />
+	<app main="Main" path="Export" file="TicTacToe" />
 	
 	<source path="Source" />
 	
